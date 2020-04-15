@@ -1,0 +1,128 @@
+﻿<body background="Back_4.png" >
+
+<center>
+<table border="0" bgcolor="White">
+<tr> 
+<th colspan="">        <img border="0" src="i_inicio.png" width="20" height="20">              <a href="inicio.html"> Home </a>
+<th colspan="">        <img border="0" src="i_registrarse.png" width="20" height="20">         <a href="Formulario.html"> Registrarse </a>
+<th colspan="">        <img border="0" src="i_usuario.png" width="20" height="20">             <a href="Iniciar Sesion.html">  Iniciar Secion  </a>
+<th colspan="">        <img border="0" src="i_compras.png" width="25" height="25">             <a href="Carrito.html" >  Mi carrito   </a>   
+</tr>					
+</table><center/>
+
+    <p style="color:red;">
+    <!-- Main Menu Ends -->
+    <!-- Flash messages -->
+    <!-- Main included content -->
+    <div id="main-container">
+    <h1><strong><!-- Breadcrumb Starts -->
+        
+      <!-- Breadcrumb Ends -->
+      <!-- Main Heading Starts -->Registro</strong></h1>
+      <h1><strong>
+        <span>Crear nueva cuenta</span>
+        
+      <!-- Main Heading Ends -->
+      <!-- Registration Section Starts -->
+      <section class="registration-area">
+        <div class="row">
+      </strong>
+      </h2>
+      <div class="col-sm-7">
+        <!-- Registration Block Starts -->
+<div class="panel panel-smart">
+              <div class="panel-heading">
+                <h3 class="panel-title">Información Personal</h3>
+              </div>
+
+              <div class="panel-body">
+                <!-- Registration Form Starts -->
+                <form method="POST" action="/user/doregister" class="form-horizontal" role="form">
+                  <!-- Personal Information Starts -->
+                  
+<div class="form-group ">
+                    <label for="inputFname" class="col-sm-3 control-label">Nombre :</label>
+                    <div class="col-sm-10">
+                      <input type="text" " class="form-control" id="name" name="name" placeholder="Nombre" />
+                    </div>
+                  </div>
+
+                  <div class="form-group ">
+                    <label for="inputLname" class="col-sm-3 control-label">Apellido :</label>
+                    <div class="col-sm-9">
+                    <input type="text" class="form-control" id="lastname1" name="lastname1" placeholder="Apellido Paterno" />
+                  </div>
+
+                  </div>
+                    <div class="form-group ">
+                    <label for="inputEmail" class="col-sm-3 control-label">Apellido :</label>
+                    <div class="col-sm-9">
+                    <input type="text" class="form-control" id="lastname2" name="lastname2" placeholder="Apellido Materno" />
+                  </div>
+
+                  </div>
+                    <div class="form-group ">
+                    <label for="inputPhone" class="col-sm-3 control-label">eMail :</label>
+                    <div class="col-sm-9">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                  </div>
+
+                  </div>
+                    <div class="form-group " style="display: none">
+                    <label for="inputPhone" class="col-sm-3 control-label">eMail (con):</label>
+                    <div class="col-sm-9">
+                    <input type="email" class="form-control" id="email_conf" name="confirm_email" placeholder="Email (confirmar correo)" />
+                  </div>
+
+                  </div>
+                     <div class="form-group ">
+                     <label for="inputPhone" class="col-sm-3 control-label">Teléfono :</label>
+                     <div class="col-sm-9">
+                      <input type="phone_number" class="form-control" id="phone_number" name="phone_number" placeholder="Teléfono de contacto" />
+                  </div>
+
+                  </div>
+                    <!-- Password Area Starts -->
+                    <h3 class="panel-heading inner">
+                    Password
+                    </h3>
+                    <!-- Password Area Starts -->
+                  <div class="form-group ">
+                  <label for="inputPassword" class="col-sm-3 control-label">Contraseña :</label>
+                    <div class="col-sm-9">
+                      <input type="password" class="form-control" name="password" id="password" placeholder="Contraseña" />
+                    </div>
+
+                  </div>
+                  <div class="form-group ">
+                    <label for="inputRePassword" class="col-sm-3 control-label">Confirmación :</label>
+                    <div class="col-sm-9">
+                      <input type="password" class="form-control" name="confirm_password" id="confirm_password" placeholder="Confirmación Contraseña" />
+                    </div>
+
+                  </div>
+                  <!-- Personal Information Ends -->
+                  <div class="form-group">
+                    <div class="col-sm-offset-3 col-sm-9">
+                      <div class="checkbox"></div>
+
+                    </div>
+
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-offset-3 col-sm-9"> <br>
+                      <button type="submit" class="btn btn-danger">
+                        Registrarse
+                      </button>
+                    </div>
+
+                  </div>
+                  <!-- Password Area Ends -->
+                </form>
+                <!-- Registration Form Starts -->
+              </div>
+            </div>
+            <!-- Registration Block Ends -->
+          </div>
+</p>
+</body>
